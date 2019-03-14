@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>News</title>
+</head>
+
+<body>
+  <div id="header">
+    <h1>News App</h1>
+  </div>
+  <div class="container" id="app" align="center">
+    <div class="rows medium-9" v-for="data in results">
+      <div class="card ">
+        <div class="card-divider">
+          <p>
+            <b>{{data.titlu}} </b>
+          </p>
+        </div>
+        <div class="card-text ">
+          <p> {{ data.descriere }}</p>
+
+        </div>
+        <div class="card-section">
+          <p text-align="left">
+            <hr>
+            <a v-bind:href=" data.url ">
+              <i> Mai multe aici </i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <h6 align="center">Copyright &COPY; Mazilu Eduard</h5>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    const vm = new Vue({
+      el: '#app',
+      data: {
+        results: []
+      },
+      mounted() {
+        axios.get("http://127.0.0.1:3001/news").then(response => {
+          this.results = response.data
+        })
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>

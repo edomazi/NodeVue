@@ -1,0 +1,39 @@
+{
+  "1": {
+    "titlu":"Inundatii in Japonia",
+    "autor":"Marius",
+    "url":"https://www.biziday.ro/japonia-cel-putin-156-de-persoane-au-murit-in-urma-ploilor-torentiale-din-vestul-tarii-peste-opt-mii-de-sinistrati-sunt-adapostiti-in-refugii/",
+    "descriere":"Japonia. Cel puțin 156 de persoane au murit în urma ploilor torențiale din vestul țării. Peste opt mii de sinistraţi sunt adăpostiţi în refugii. "
+  },
+  
+  "2":{
+      "titlu":"Inundatii in Valcea",
+      "autor":"Raluca",
+      "url":"https://stirileprotv.ro/stiri/actualitate/cod-rosu-de-inundatii-zonele-vizate-de-atentionare.html?source=biziday",
+      "descriere" : "Cod roşu de inundaţii. 70 de persoane, evacuate în Vâlcea. 67 de localităţi din 27 de judeţe, afectate"
+    },
+    "3":{
+      "titlu":"Trump si NATO",
+      "autor":"Alex",
+      "url":"https://www.g4media.ro/experti-americani-despre-summit-ul-nato-trump-va-avea-de-ales-intre-alianta-si-rusia.html?source=biziday",
+      "descriere" : "Experţi americani despre summit-ul NATO: Trump va avea de ales între Alianţă şi Rusia"
+    },
+    "4":{
+      "titlu":"Referendum Marea Britania",
+      "autor":"Bianca",
+      "url":"https://www.biziday.ro/premierul-britanic-anunta-ca-nu-va-supune-unui-referendum-acordul-final-pentru-brexit-iar-data-va-ramane-aceeasi-doi-ministri-din-guvern-si-au-dat-astazi-demisia/",
+      "descriere" : "Premierul britanic anunță că nu va supune unui referendum acordul final pentru Brexit, iar data va rămâne aceeași. Doi miniştri din Guvern şi-au dat astăzi demisia. "
+    },
+    "5":{
+      "titlu":"SUA  vrea sa impuna taxe majore importurilor ",
+      "autor":"Irina",
+      "url":"https://www.biziday.ro/sua-ameninta-ca-impune-taxe-suplimentare-de-200-de-miliarde-de-dolari-importurilor-din-china-beijingul-se-declara-socat-si-anunta-un-raspuns-pe-masura/",
+      "descriere" : "SUA amenință că impune taxe suplimentare de 200 de miliarde de dolari importurilor din China. Beijingul se declară “șocat” și anunță un răspuns “pe măsură”."
+    },
+    "6":{
+      "titlu":"Tragedie evitata in Thailanda",
+      "autor":"Catalin",
+      "url":"https://www.biziday.ro/thailanda-toti-cei-12-copii-si-antrenorul-lor-de-fotbal-blocati-in-pestera-de-peste-trei-saptamani-au-fost-scosi-la-suprafata/",
+      "descriere" : "Thailanda. Toți cei 12 copii și antrenorul lor de fotbal, blocați în peșteră de peste trei săptămâni, au fost scoși la suprafață. "
+    }
+}
